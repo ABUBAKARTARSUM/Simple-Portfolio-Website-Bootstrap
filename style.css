@@ -1,0 +1,52 @@
+/* -------------------
+import google fonts
+---------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cookie&family=Lobster+Two&family=Nunito&family=Patua+One&family=Ultra&display=swap');
+.nav-link {
+    font-family: 'Patua One', cursive;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+p {
+    font-family: 'Nunito', cursive;
+}
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Ultra', serif;
+}
+section {
+    padding-top: 5rem;
+}
+.jumbotron  {
+    background: linear-gradient(to bottom, #469d89, #248277);
+    color: white;
+}
+.btn-style {
+    background: rgba(255, 255, 255, 0.40);
+    outline: none;
+    border-radius: 4px;
+}
+.bg-greenTua {
+    background: #469d89;
+}
+.text-shadow {
+    text-shadow: 2px 0 20px black;
+}
+section#portfolio {
+    background: #469d89;
+}
+.form-control  {
+    border-radius: 25px;
+    background: #469d89;
+    outline: none;
+}
+.form-control::placeholder {
+    color: white;
+}
+.form-control:focus {
+    border-radius: 25px;
+    background: #469d89;
+    outline: none;
+}
